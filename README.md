@@ -19,7 +19,7 @@ git clone https://github.com/youneedyourself/Timesformer-for-Video-Summarization
 pip install -r requirements.txt
 ```
 
-# Dataset
+## Dataset
 
 ### SumMe
 The data can be downloaded from the [project page](https://gyglim.github.io/me/vsum/index.html).
@@ -40,22 +40,23 @@ data/summe
 ```
 
 
-# Methods
+## Methods
 
 1. Visualize attention map
 
 Please go to this link: https://github.com/yiyixuxu/TimeSformer-rolled-attention and clone this repo to your computer, after that, use 2 notebooks in my repo to visualize the attention map of Timesformer.
 
 2. Video summarization:
-    - Kmeans
+- Kmeans
 ```
 python src/kmeans.py
 ```
-    - Sum of Squared Diff 01
+
+- Sum of Squared Diff 01
 ```
 python src/tt01.py
 ```
-    - Sum of Squared Diff 02
+- Sum of Squared Diff 02
 ```
 python src/tt02.py
 ```
