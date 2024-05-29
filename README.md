@@ -39,50 +39,30 @@ data/summe
 └── ...
 ```
 
-# Project Organization
---------------------
-
-    .
-    ├── LICENSE
-    ├── README.md
-    ├── data
-    │   ├── interim
-    │   ├── processed
-    │   └── raw # please see "Data" description above
-    │        ├── summe
-    │        │     └── GT/ 
-    │        │     └── shot_SumMe.mat
-    │        ├── tvsum
-    │        │     └── ydata-tvsum50.mat
-    │        │     └── shot_TVSum.mat
-    │        └── example.json
-    ├── notebooks
-    └── src
 
 # Methods
 
-- visualize attention map
+1. Visualize attention map
 
-- algorithm:
-    - kmeans
-    - tt01
-    - tt02
+2. Video summarization:
+    - Kmeans
 ```
 python src/kmeans.py
 ```
-- evaluation
+    - Sum of Squared Diff 01
+```
+python src/tt01.py
+```
+    - Sum of Squared Diff 02
+```
+python src/tt02.py
+```
 
-# Note
-
-i'm using clip_Sample_rate 1 -> if you want to increase, pls do it yourself
-
-# Results
-
+3. Evaluation
 
 ## References
 
-    - video summarizer
-    - visualize
-    - evaluation
-    - timesformer
-    - summer
+    - Video summarizer - https://github.com/AmitDeo/video-summarizer
+    - Attention Rollout - https://github.com/yiyixuxu/TimeSformer-rolled-attention
+    - Rethinking the Evaluation of Video Summaries  - https://github.com/mayu-ot/rethinking-evs
+    - Timesformer - Is Space-Time Attention All You Need for Video Understanding?
