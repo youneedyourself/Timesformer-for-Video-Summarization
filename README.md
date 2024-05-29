@@ -44,6 +44,8 @@ data/summe
 
 1. Visualize attention map
 
+Please go to this link: https://github.com/yiyixuxu/TimeSformer-rolled-attention and clone this repo to your computer, after that, use 2 notebooks in my repo to visualize the attention map of Timesformer.
+
 2. Video summarization:
     - Kmeans
 ```
@@ -59,6 +61,8 @@ python src/tt02.py
 ```
 
 3. Evaluation
+
+Please go to this link: https://github.com/mayu-ot/rethinking-evs and clone this repo to your computer. Follow the repo instruction, use 3 notebooks in my repo to create a json file to evaluate the summarized videos.
 
 ## References
 
