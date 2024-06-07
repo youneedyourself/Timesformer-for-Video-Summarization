@@ -65,6 +65,10 @@ python src/tt02.py
 
 Please go to this link: https://github.com/mayu-ot/rethinking-evs and clone this repo to your computer. Follow the repo instruction, use 3 notebooks in my repo to create a json file to evaluate the summarized videos.
 
+## Deploying
+
+I'm also deployed the summarize system by using Gradio and Hugging Face, enter https://huggingface.co/spaces/namnh2002/video-summarization_timesformer to try it yourself.
+
 ## References
 
     - Video summarizer - https://github.com/AmitDeo/video-summarizer
