@@ -22,7 +22,7 @@ def tt02(features, threshold):
             random_num = round(len(clip)*0.15)
             # sort the frames in the clip list to ensure the order of the frames
             random_Frames = sorted(random.sample(clip, random_num))
-            i = j
+            i = j   
             clips.extend(random_Frames)
 
         previous = j
