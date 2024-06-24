@@ -69,6 +69,8 @@ Please go to this link: https://github.com/mayu-ot/rethinking-evs and clone this
 
 I'm also deployed the summarize system by using Gradio and Hugging Face, enter https://huggingface.co/spaces/namnh2002/video-summarization_timesformer to try it yourself.
 
+Source code: https://github.com/youneedyourself/Video-Summarization_Timesformer
+
 ## References
 
     - Video summarizer - https://github.com/AmitDeo/video-summarizer
